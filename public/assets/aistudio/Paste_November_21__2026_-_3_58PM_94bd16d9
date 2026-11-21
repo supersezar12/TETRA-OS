@@ -1,0 +1,1715 @@
+# TETRA OS — MASTER PRODUCT BUILD PROMPT
+## Complete Enterprise Commercial Decisions Intelligence Platform
+### Product Master Specification + Architecture + Engineering + Implementation + Validation
+
+---
+
+# 1. دورك ومسؤوليتك
+
+أنت فريق تطوير تقني متكامل يضم الأدوار التالية:
+
+1. Chief Product Architect.
+2. Enterprise Software Architect.
+3. Operations Research Scientist.
+4. Mathematical Optimization Engineer.
+5. Data Engineer.
+6. AI/ML Engineer.
+7. Backend Engineer.
+8. Frontend Engineer.
+9. Database Architect.
+10. Security Engineer.
+11. QA & Test Automation Engineer.
+12. Business Intelligence Specialist.
+13. Commercial Strategy Specialist.
+14. UX/UI Product Designer.
+
+مهمتك هي تصميم وبناء تطبيق مؤسسي متكامل باسم:
+
+**TETRA OS**
+
+الهوية:
+
+**Commercial Decisions Intelligence Platform**
+
+الشعار الوظيفي:
+
+**Predict. Optimize. Detect.**
+
+لا تتعامل مع المشروع على أنه لوحة تحكم تقليدية، أو CRM، أو ERP، أو برنامج تقارير، أو مجرد واجهة تعتمد على الذكاء الاصطناعي.
+
+أنت تبني منصة ذكاء تجاري متقدمة تساعد الشركات على فهم أوضاعها التجارية، وتحليل البيانات، والتنبؤ بالنتائج، واكتشاف الفرص والمخاطر، وتحسين القرارات باستخدام النماذج الرياضية وبحوث العمليات، ثم قياس نتائج القرارات المعتمدة.
+
+المطلوب منتج حقيقي قابل للتوسع والتشغيل التجاري، وليس مجرد Prototype شكلي.
+
+---
+
+# 2. قواعد العمل الإلزامية
+
+التزم بالقواعد التالية طوال عملية التطوير:
+
+1. ابدأ من الصفر في مساحة العمل الحالية للمنصة الجديدة.
+2. لا تعتمد على نسخ مشروع قديم أو نقل أخطائه أو بنيته البرمجية.
+3. لا تغيّر هوية TETRA OS أو تحوّله إلى منتج آخر.
+4. لا تختزل المشروع في مجموعة شاشات أو Dashboard.
+5. لا تنشئ وظائف وهمية أو أزراراً لا تؤدي عملاً حقيقياً.
+6. لا تعرض تحليلاً أو توصية باعتبارها نتيجة علمية إذا لم تتوفر البيانات الكافية.
+7. لا تجعل الذكاء الاصطناعي التوليدي بديلاً عن الحسابات الرياضية والمحركات الكمية.
+8. يجب أن تكون العمليات الحسابية قابلة للاختبار والتفسير وإعادة الإنتاج.
+9. يجب أن تكون التوصيات قابلة للتتبع إلى البيانات والمدخلات والافتراضات والنموذج المستخدم.
+10. يجب الفصل بين التوقع والتوصية والقرار المعتمد والتنفيذ والنتيجة الفعلية.
+11. لا تفترض وجود بيانات غير موجودة.
+12. لا تخترع نتائج أو معاملات أو معدلات تأثير أو علاقات سببية.
+13. لا تدّعِ تحقيق أمثلية رياضية إذا لم يثبت Solver ذلك.
+14. لا تعتبر نجاح الاختبارات الجزئية دليلاً على اكتمال المنتج.
+15. لا تنتقل إلى مرحلة جديدة قبل التحقق من مخرجات المرحلة السابقة.
+16. وثّق كل قرار معماري وكل افتراض وكل قيد.
+17. لا تحذف وظيفة أساسية لتسهيل التطوير دون توثيق أثر ذلك والحصول على موافقة.
+18. إذا كانت هناك معلومات ناقصة، حددها بوضوح واقترح طريقة معالجتها بدلاً من اختراعها.
+
+**قاعدة أساسية:** أريد نظاماً حقيقياً يعمل من قاعدة البيانات إلى محركات الحساب والتحليل والتحسين ثم إلى واجهة المستخدم، وليس واجهة تعرض نتائج تجريبية ثابتة.
+
+---
+
+# 3. مفهوم المنتج
+
+TETRA OS هو نظام ذكاء وتحسين القرارات التجارية للشركات.
+
+يستقبل بيانات الشركة من مصادر مختلفة، وينظمها ويتحقق من جودتها، ثم يستخدم الإحصاء والتنبؤ والتحليل التجاري وبحوث العمليات والخوارزميات الرياضية لاستخراج:
+
+- التوقعات التجارية.
+- الفرص التجارية.
+- المخاطر والانحرافات.
+- أوجه القصور.
+- البدائل الممكنة.
+- التوصيات.
+- السيناريوهات.
+- خطط التحسين.
+- قرارات قابلة للمراجعة والاعتماد.
+- قياس الأداء والنتائج الفعلية.
+
+القيمة الأساسية:
+
+تحويل بيانات الشركة إلى قرارات تجارية أفضل، قابلة للتفسير والقياس والمراجعة.
+
+## العملاء المستهدفون
+
+الشركات التي تعمل في:
+
+- التوزيع.
+- التجارة متعددة المنتجات.
+- الاستيراد والتوريد.
+- السلع الاستهلاكية سريعة الحركة FMCG.
+- الأغذية والمشروبات.
+- الأجهزة والإلكترونيات.
+- تجارة الجملة.
+- تجارة التجزئة متعددة الفروع.
+- الشركات متعددة المناطق والقنوات والعملاء.
+- الشركات التي تدير ميزانيات وعروضاً وأنشطة تجارية متعددة.
+
+يجب أن يكون النظام قابلاً للتوسع لاحقاً إلى قطاعات أخرى دون إعادة بناء المنصة من الصفر.
+
+---
+
+# 4. التموضع وحدود المنتج
+
+TETRA OS ليس نظاماً لتنفيذ الأعمال اليومية.
+
+لا تبنِه باعتباره بديلاً عن:
+
+- ERP.
+- CRM.
+- Accounting Systems.
+- POS.
+- Warehouse Management Systems.
+- Transportation Management Systems.
+- Marketing Automation Systems.
+- Sales Force Automation Systems.
+
+هذه الأنظمة يمكن أن تكون مصادر بيانات أو أنظمة تكامل خارجية.
+
+وظيفة TETRA OS هي تحليل المعلومات وتحسين القرارات التجارية، وليس تنفيذ جميع العمليات التشغيلية للشركة.
+
+مثلاً:
+
+- لا يدير المخازن بديلاً عن WMS.
+- لا ينفذ حملات التسويق بديلاً عن أدوات التسويق.
+- لا يصدر فواتير بديلاً عن المحاسبة.
+- لا يدير زيارات مندوبي المبيعات بديلاً عن SFA.
+- لكنه يستطيع تحليل بيانات هذه الأنظمة واستخدامها في تحسين القرارات.
+
+---
+
+# 5. البنية الرئيسية للمنصة
+
+يجب بناء المنصة حول ثلاثة محركات أساسية مترابطة:
+
+## A. PREDICT — Intelligence & Prediction Engine
+
+وظيفته فهم الوضع التجاري الحالي وتقدير ما قد يحدث مستقبلاً.
+
+يشمل:
+
+1. Demand Forecasting.
+2. Sales Forecasting.
+3. Revenue Forecasting.
+4. Product Performance Forecasting.
+5. Customer Behavior Analysis.
+6. Channel Performance Forecasting.
+7. Regional Performance Forecasting.
+8. Pricing Response Analysis.
+9. Promotion Performance Forecasting.
+10. Supplier Performance Analysis.
+11. Procurement Risk Analysis.
+12. Credit Risk Indicators.
+13. Liquidity Forecasting.
+14. Budget Performance Forecasting.
+15. Commercial Trend Detection.
+
+الخوارزميات والأساليب المحتملة:
+
+- Statistical Forecasting.
+- Time Series Models.
+- Regression.
+- Classification.
+- Bayesian Methods.
+- Probabilistic Forecasting.
+- Clustering.
+- Anomaly Detection.
+- Machine Learning.
+- Scenario Analysis.
+
+يجب اختيار النموذج المناسب بحسب طبيعة البيانات والمشكلة، وعدم استخدام نموذج معقد لمجرد أنه متقدم.
+
+يجب أن يعرض النظام:
+
+- التوقع.
+- الفترة الزمنية.
+- مستوى الثقة أو نطاق التوقع عند توفر أساس إحصائي.
+- جودة البيانات.
+- النموذج المستخدم.
+- الافتراضات.
+- القيود.
+- تاريخ إنشاء التوقع.
+- إصدار النموذج.
+
+لا يجوز لمحرك Prediction اختراع أهداف الشركة أو تعديل الأهداف المعتمدة.
+
+## B. OPTIMIZE — Mathematical Decision & Optimization Engine
+
+هذا هو المحرك الرياضي المركزي للمنصة.
+
+يجب أن يعتمد على بحوث العمليات والتحسين الرياضي والخوارزميات الكمية، وليس على الذكاء الاصطناعي التوليدي وحده.
+
+اسمه المعماري:
+
+**TETRA Mathematical Decision Engine**
+
+وظيفته إيجاد أفضل بديل ممكن ضمن:
+
+- أهداف الشركة المعتمدة.
+- الميزانيات.
+- القيود التشغيلية.
+- القيود المالية.
+- السياسات التجارية.
+- الموارد المتاحة.
+- حدود المخاطر.
+- الطلب المتوقع.
+- المعلومات والافتراضات المثبتة.
+
+### عائلة النماذج والخوارزميات المطلوبة
+
+صمم طبقة قابلة للتوسع تدعم:
+
+1. Linear Programming (LP).
+2. Mixed Integer Linear Programming (MILP).
+3. Integer Programming.
+4. Nonlinear Programming (NLP).
+5. Convex Optimization.
+6. Constraint Programming.
+7. CP-SAT.
+8. Multi-objective Optimization.
+9. Pareto Optimization.
+10. Stochastic Programming.
+11. Robust Optimization.
+12. Dynamic Programming.
+13. Network Optimization.
+14. Assignment Optimization.
+15. Transportation Optimization.
+16. Combinatorial Optimization.
+17. Monte Carlo Simulation.
+18. Sensitivity Analysis.
+19. Scenario Optimization.
+20. Risk-aware Optimization.
+
+لا تطبق كل الخوارزميات على كل مشكلة.
+
+يجب إنشاء Model Selection Layer يختار النموذج وفق طبيعة المشكلة والبيانات والقيود، مع مقارنة النتائج بخط أساس مناسب.
+
+### وظائف محرك التحسين
+
+- تحديد المشكلة الرياضية.
+- تحديد متغيرات القرار.
+- تعريف دالة الهدف.
+- تعريف القيود.
+- تحديد البيانات المطلوبة.
+- التحقق من صلاحية المدخلات.
+- بناء النموذج.
+- تشغيل Solver.
+- تحليل الحل.
+- اختبار الحساسية.
+- مقارنة السيناريوهات.
+- توضيح أسباب اختيار الحل.
+- توثيق حالة الحل.
+- إنشاء توصية قابلة للمراجعة.
+
+### حالات Solver الإلزامية
+
+يجب التمييز بين:
+
+- OPTIMAL.
+- FEASIBLE.
+- INFEASIBLE.
+- UNBOUNDED.
+- TIME_LIMIT.
+- INSUFFICIENT_DATA.
+- AMBIGUOUS.
+- FAILED.
+
+لا تعرض OPTIMAL عندما تكون النتيجة مجرد أفضل حل عُثر عليه قبل انتهاء المهلة.
+
+عند TIME_LIMIT يمكن عرض FEASIBLE إذا توفر حل صالح، مع توضيح أنه ليس مثبت الأمثلية.
+
+عند INFEASIBLE يجب توضيح تعارض القيود قدر الإمكان، وعدم تقديم حل غير صالح على أنه حل مقبول.
+
+سجّل لكل عملية تحسين:
+
+- Model ID.
+- Model Version.
+- Solver Name.
+- Solver Version.
+- Objective Function.
+- Decision Variables.
+- Constraints.
+- Input Dataset Version.
+- Assumptions.
+- Solver Status.
+- Objective Value.
+- Optimality Gap عند توفره.
+- Execution Time.
+- Feasibility Validation.
+- Generated At.
+
+## C. DETECT — Performance, Risk & Opportunity Detection Engine
+
+وظيفته مقارنة النتائج الفعلية بما تم توقعه أو اعتماده أو اتخاذ قرار بشأنه.
+
+يشمل:
+
+1. Budget Variance Detection.
+2. Forecast Drift Detection.
+3. Financial Exposure Detection.
+4. Demand Variance Detection.
+5. Sales Target Variance Detection.
+6. Product Performance Deviation.
+7. Customer Performance Deviation.
+8. Channel Performance Deviation.
+9. Regional Performance Deviation.
+10. Pricing Deviation.
+11. Promotion Performance Detection.
+12. Supplier Performance Deviation.
+13. Commercial Risk Detection.
+14. Optimization Outcome Monitoring.
+15. Decision Effectiveness Monitoring.
+
+يجب أن ينتج:
+
+- Alert.
+- Severity.
+- Evidence.
+- Detected Metric.
+- Expected Value.
+- Actual Value.
+- Variance.
+- Threshold.
+- Related Entity.
+- Related Decision.
+- Recommended Investigation.
+- Status.
+- History.
+
+دورة التنبيه:
+
+OPEN → UNDER_REVIEW → RESOLVED أو DISMISSED.
+
+يجب حفظ سجل دورة حياة التنبيه، ومنع حذف التاريخ أو تغييره دون أثر تدقيقي.
+
+إعادة اكتشاف مشكلة بعد إغلاق تنبيه سابق يجب أن تنشئ تنبيهاً جديداً مع ربطه بالتنبيه السابق.
+
+---
+
+# 6. المجالات التجارية الرئيسية
+
+يجب أن تغطي المنصة المجالات التالية كوحدات مترابطة.
+
+## 6.1 Commercial Strategy & Sales Intelligence
+
+- تحليل الأداء التجاري الشامل.
+- تحليل المبيعات والإيرادات.
+- تحليل النمو والانكماش.
+- تحليل المنتجات والعملاء والقنوات والمناطق.
+- تحديد الفرص التجارية.
+- تحليل فجوات الأداء.
+- مقارنة السيناريوهات التجارية.
+- دعم التخطيط الاستراتيجي.
+- تحليل مساهمة كل قطاع في الأداء.
+
+## 6.2 Trade Marketing Intelligence
+
+- تحليل الأنشطة التسويقية التجارية.
+- مقارنة الأنشطة.
+- تقييم توزيع الميزانيات.
+- تقييم فعالية الأنشطة عند توافر بيانات موثوقة.
+- تحديد الفرص التسويقية.
+- اكتشاف التداخل بين الأنشطة.
+- تحليل العروض التجارية.
+- اقتراح تعديل النشاط.
+- تحسين اختيار الأنشطة.
+
+يجب الفصل بين:
+
+- Budget.
+- Allocated Amount.
+- Approved Amount.
+- Committed Amount.
+- Actual Spend.
+- Attributed Revenue.
+- Incremental Revenue.
+- Incremental Contribution.
+
+لا تفترض أن الميزانية المخصصة قد تم إنفاقها.
+
+لا تعتبر الزيادة في الإيرادات نتيجة سببية للنشاط دون تصميم قياس وأدلة مناسبة.
+
+## 6.3 Sales Strategy & Channel Intelligence
+
+- تحليل أداء قنوات البيع.
+- مقارنة القنوات.
+- تحليل العملاء حسب القناة.
+- تحليل المناطق.
+- توزيع الأهداف.
+- تحليل فرص التوسع.
+- تحليل التداخل بين القنوات.
+- تحسين توزيع الموارد التجارية.
+- تحليل مساهمة كل قناة في الإيرادات والربحية عند توفر البيانات.
+
+## 6.4 Pricing & Profitability Intelligence
+
+- تحليل الأسعار.
+- مقارنة الأسعار.
+- تحليل هوامش الربح عند توفر COGS.
+- تحليل تأثير تغير الأسعار.
+- مقارنة سيناريوهات التسعير.
+- تحليل الخصومات.
+- تحديد فرص تحسين الربحية.
+- تحليل حدود الأسعار والسياسات.
+- تحسين مزيج الأسعار.
+
+لا تدّعِ معرفة Price Elasticity دون بيانات كافية أو نموذج موثق.
+
+لا تحسب Gross Profit دون تكلفة البضاعة المباعة المناسبة.
+
+## 6.5 Bundles, Promotions & Trade Offers
+
+- تصميم وتحليل الباقات.
+- مقارنة العروض.
+- تحليل خصومات الكميات.
+- تحليل الهدايا المجانية.
+- عروض المنتجات المجمعة.
+- تحليل المنتجات المكملة.
+- تحسين مزيج المنتجات.
+- تحليل قيود الميزانية والهامش.
+- تحسين العروض وفق أهداف الشركة.
+
+استخدم Combinatorial Optimization وMILP عندما تكون طبيعة المشكلة مناسبة.
+
+لا تفترض Cannibalization أو Uplift دون دليل أو نموذج مثبت.
+
+## 6.6 Product & Portfolio Intelligence
+
+- تحليل أداء المنتجات.
+- تحليل مساهمة المنتجات.
+- تحليل النمو والتراجع.
+- اكتشاف المنتجات الضعيفة.
+- اكتشاف الفرص.
+- تحليل المنتجات المكملة.
+- تحليل تنوع المحفظة.
+- تقييم خيارات التوسع أو تقليص المحفظة.
+- دعم قرارات إدخال وإيقاف المنتجات.
+
+## 6.7 Customer & Market Intelligence
+
+- تحليل العملاء.
+- تقسيم العملاء.
+- تحليل سلوك الشراء.
+- تحليل الاحتفاظ بالعملاء.
+- تحليل قيمة العميل عند توفر أساس صالح.
+- اكتشاف فرص العملاء.
+- تحليل تركّز الإيرادات.
+- تحليل مخاطر الاعتماد على العملاء.
+- تحليل الأنماط التجارية.
+
+## 6.8 Sales Targets & Performance
+
+- تحليل الأهداف المعتمدة.
+- مقارنة الفعلي بالأهداف.
+- تحليل فجوات الأداء.
+- التوقع مقابل الهدف.
+- سيناريوهات تحقيق الأهداف.
+- تحليل أداء المناطق والقنوات والمنتجات.
+- دعم إعداد الأهداف وتوزيعها.
+
+يجب عدم الخلط بين الأهداف والتوقعات.
+
+## 6.9 Suppliers & Procurement Intelligence
+
+- تحليل الموردين.
+- مقارنة الموردين.
+- تحليل الأسعار.
+- تحليل الأداء.
+- تحليل الاعتماد على المورد.
+- تحليل مخاطر التوريد.
+- تقييم بدائل التوريد.
+- تحسين قرارات الاختيار والتخصيص.
+- تحليل سيناريوهات الشراء.
+
+## 6.10 Commercial Credit & Liquidity
+
+- تحليل الائتمان التجاري.
+- تحليل الذمم.
+- تحليل مخاطر العملاء.
+- توقع التدفقات النقدية.
+- تحليل التحصيل.
+- تحليل التعرض المالي.
+- تحليل حدود الائتمان.
+- سيناريوهات السيولة.
+- دعم قرارات الائتمان وفق السياسات المعتمدة.
+
+## 6.11 Budget & Commercial Investment Allocation
+
+- إدارة بيانات الميزانيات التجارية.
+- تحليل الميزانيات.
+- مقارنة التخصيصات.
+- تحسين توزيع الميزانيات.
+- تحليل القيود.
+- سيناريوهات الاستثمار التجاري.
+- تحديد الأولويات.
+- تحليل النتائج مقابل الاعتمادات.
+- كشف الانحرافات.
+
+يجب الفصل بين Allocation وActual Spending.
+
+---
+
+# 7. البيانات والبنية المعرفية
+
+أنشئ طبقة بيانات موحدة تدعم تعدد الشركات والعملاء والفروع والمنتجات والقنوات والمناطق.
+
+## مصادر البيانات
+
+يجب دعم:
+
+1. Excel.
+2. CSV.
+3. JSON.
+4. API.
+5. قواعد بيانات خارجية.
+6. أنظمة ERP.
+7. أنظمة CRM.
+8. أنظمة POS.
+9. أنظمة المحاسبة.
+10. أنظمة المخزون.
+11. مصادر البيانات التشغيلية الأخرى.
+
+## Data Ingestion
+
+أنشئ نظاماً فعلياً لاستقبال البيانات يتضمن:
+
+- رفع الملفات.
+- اختيار مصدر البيانات.
+- اكتشاف الأعمدة.
+- Column Mapping.
+- Data Type Detection.
+- Data Preview.
+- Validation.
+- Duplicate Detection.
+- Missing Value Detection.
+- Entity Matching.
+- Import History.
+- Error Reporting.
+- Import Rollback حيث يكون آمناً ومناسباً.
+
+## Data Quality
+
+يجب فحص:
+
+- Completeness.
+- Accuracy.
+- Consistency.
+- Validity.
+- Uniqueness.
+- Timeliness.
+- Referential Integrity.
+- Scope Compatibility.
+
+## Data Sufficiency
+
+كل تحليل أو توصية يجب أن يمر بفحص كفاية البيانات.
+
+الحالات:
+
+- READY.
+- PARTIAL.
+- INSUFFICIENT_DATA.
+- AMBIGUOUS.
+- FAILED.
+
+إذا كانت البيانات غير كافية، اعرض ما ينقص المستخدم وما يمكن حسابه وما لا يمكن حسابه.
+
+لا تنتج توصية تشغيلية مضللة من بيانات ناقصة.
+
+## Data Governance
+
+يجب توفير:
+
+- Data Lineage.
+- Data Versioning.
+- Source Tracking.
+- Import Logs.
+- Validation Logs.
+- Data Quality Scores.
+- Audit Trail.
+- Dataset Snapshots.
+- Retention Policies.
+
+---
+
+# 8. قواعد الفصل بين الكيانات والنتائج
+
+يجب أن تكون هناك كيانات منفصلة في النظام لكل من:
+
+1. Approved Targets.
+2. Forecasts.
+3. Recommendations.
+4. Approved Decisions.
+5. Execution References.
+6. Actual Outcomes.
+7. Alerts.
+8. Performance Measurements.
+
+لا تخلط بينها في قاعدة البيانات أو الواجهة.
+
+التدفق الصحيح:
+
+DATA → VALIDATION → PREDICTION → OPTIMIZATION → RECOMMENDATION → REVIEW → APPROVAL → EXECUTION REFERENCE → MEASUREMENT → DETECT → FEEDBACK.
+
+التوصية ليست قراراً.
+
+القرار المعتمد لا يعني أنه نُفذ.
+
+التنفيذ لا يعني تحقق النتيجة المتوقعة.
+
+النتيجة الفعلية هي ما يُقاس من البيانات الفعلية.
+
+يجب الحفاظ على تاريخ جميع الإصدارات والقرارات والتغييرات.
+
+---
+
+# 9. AI Intelligence Layer
+
+أنشئ طبقة ذكاء اصطناعي مرتبطة بالمحركات الأساسية.
+
+وظائفها:
+
+- فهم الأسئلة باللغة الطبيعية.
+- تفسير المؤشرات.
+- تلخيص التحليلات.
+- شرح نتائج التوقع.
+- شرح الحلول الرياضية.
+- تفسير القيود.
+- إنشاء تقارير إدارية.
+- مقارنة السيناريوهات.
+- مساعدة المستخدم في استكشاف البيانات.
+- تحويل الأسئلة إلى طلبات تحليل منظمة.
+- اقتراح التحليلات المناسبة.
+- شرح التنبيهات.
+- المساعدة في إنشاء قرارات قابلة للمراجعة.
+
+## ضوابط الذكاء الاصطناعي
+
+1. لا يخترع بيانات.
+2. لا يخترع نتائج حسابية.
+3. لا ينشئ توقعاً دون معرفة مدخلاته.
+4. لا يتجاوز صلاحيات المستخدم.
+5. لا يعتمد قراراً نيابة عن الإدارة.
+6. لا يغير بيانات المصدر.
+7. لا يدعي أن التوصية مضمونة.
+8. يجب أن يربط تفسيره بالنتائج الفعلية للمحركات.
+9. يوضح الافتراضات والقيود.
+10. يميز بين الحقيقة والاستنتاج والفرضية والاقتراح.
+
+يجب بناء AI Orchestration Layer تستدعي المحركات المتخصصة بدلاً من تنفيذ الحسابات داخل المحادثة اللغوية.
+
+---
+
+# 10. واجهة المستخدم وتجربة الاستخدام
+
+صمم واجهة مؤسسية احترافية وفريدة، وليست قالب Admin Dashboard تقليدياً.
+
+يجب أن تكون الواجهة:
+
+- حديثة.
+- منظمة.
+- واضحة.
+- قابلة للتوسع.
+- سهلة الاستخدام.
+- متجاوبة مع الشاشات.
+- داعمة للعربية والإنجليزية.
+- داعمة لاتجاه RTL وLTR.
+- مناسبة للشركات والإدارة العليا والمحللين.
+
+## التصميم البصري
+
+استخدم نظام تصميم موحد يشمل:
+
+- Design Tokens.
+- Color System.
+- Typography.
+- Spacing.
+- Layout Grid.
+- Components.
+- Tables.
+- Charts.
+- Filters.
+- Forms.
+- Dialogs.
+- Status Indicators.
+- Notifications.
+- Responsive Layout.
+
+لا تستخدم الزخرفة على حساب وضوح المعلومات.
+
+يجب أن تكون الرسوم البيانية تفاعلية، وتوضح وحدات القياس والفترة ومصدر البيانات.
+
+لا تعرض مؤشرات تجميلية غير مرتبطة بقرارات فعلية.
+
+## الشاشات الرئيسية المطلوبة
+
+### 1. Authentication
+- تسجيل الدخول.
+- استعادة كلمة المرور.
+- إدارة الجلسات.
+- دعوات المستخدمين.
+- إدارة الحساب.
+
+### 2. Company Setup
+- إنشاء الشركة.
+- إعداد النشاط التجاري.
+- العملة.
+- المنطقة الزمنية.
+- الفروع.
+- المناطق.
+- القنوات.
+- المنتجات.
+- العملاء.
+- الموردون.
+- السياسات التجارية.
+
+### 3. Executive Intelligence Dashboard
+- الوضع التجاري العام.
+- مؤشرات الأداء.
+- التوقعات.
+- الانحرافات.
+- الفرص.
+- المخاطر.
+- القرارات قيد المراجعة.
+- التنبيهات.
+- ملخص أداء المحركات.
+
+### 4. Data Center
+- مصادر البيانات.
+- رفع الملفات.
+- ربط المصادر.
+- Column Mapping.
+- Data Preview.
+- Validation.
+- Import History.
+- Data Quality.
+- Data Lineage.
+
+### 5. Commercial Intelligence
+- التحليل التجاري.
+- تحليل المنتجات.
+- تحليل العملاء.
+- تحليل المناطق.
+- تحليل القنوات.
+- تحليل الاتجاهات.
+- تحليل الأداء.
+
+### 6. Prediction Center
+- إنشاء توقع.
+- اختيار النطاق.
+- تحديد الفترة.
+- مقارنة النماذج.
+- عرض التوقعات.
+- تحليل الثقة.
+- مراجعة جودة البيانات.
+- حفظ إصدار التوقع.
+
+### 7. Optimization Center
+- اختيار مشكلة القرار.
+- تحديد الهدف.
+- اختيار القيود.
+- تحديد المتغيرات.
+- تشغيل النموذج.
+- عرض الحل.
+- مقارنة السيناريوهات.
+- تحليل الحساسية.
+- عرض حالة Solver.
+- حفظ نتائج التحسين.
+
+### 8. Trade Marketing Intelligence
+- الأنشطة.
+- الميزانيات.
+- مقارنة الأنشطة.
+- تحليل التداخل.
+- تحليل التخصيص.
+- تقييم النتائج.
+- اقتراح التعديلات.
+
+### 9. Pricing & Profitability
+- الأسعار.
+- الخصومات.
+- الهوامش.
+- سيناريوهات التسعير.
+- تحليل الربحية.
+- فرص التحسين.
+
+### 10. Bundles & Offers
+- إنشاء الباقات.
+- اختيار المنتجات.
+- تحديد الشروط.
+- تحليل التكلفة.
+- تحليل الهامش.
+- تحسين العروض.
+- مقارنة البدائل.
+
+### 11. Sales & Channel Intelligence
+- أداء المبيعات.
+- القنوات.
+- المناطق.
+- العملاء.
+- الأهداف.
+- فجوات الأداء.
+
+### 12. Supplier Intelligence
+- الموردون.
+- الأسعار.
+- الأداء.
+- المخاطر.
+- البدائل.
+- سيناريوهات التوريد.
+
+### 13. Credit & Liquidity
+- العملاء الائتمانيون.
+- الذمم.
+- التحصيل.
+- السيولة.
+- التعرض المالي.
+- السيناريوهات.
+
+### 14. Budget & Investment
+- الميزانيات.
+- التخصيصات.
+- القيود.
+- سيناريوهات التوزيع.
+- الاعتمادات.
+- النتائج الفعلية.
+
+### 15. Decision Workspace
+- التوصيات.
+- مراجعة الأدلة.
+- المقارنة.
+- التعليقات.
+- الموافقات.
+- رفض القرار.
+- سجل القرارات.
+- مرجع التنفيذ.
+
+### 16. Detect Center
+- التنبيهات.
+- الانحرافات.
+- المخاطر.
+- الفرص.
+- دورة حياة التنبيه.
+- الأدلة.
+- سجل المعالجة.
+
+### 17. Reports Center
+- تقارير الإدارة.
+- تقارير الأداء.
+- تقارير التوقع.
+- تقارير التحسين.
+- تقارير الأنشطة.
+- تقارير الميزانية.
+- تقارير التنبيهات.
+- تقارير القرارات.
+- التصدير PDF وExcel عند دعم المنصة.
+
+### 18. AI Workspace
+- محادثة تحليلية.
+- الأسئلة التجارية.
+- تفسير المؤشرات.
+- استكشاف البيانات.
+- مقارنة السيناريوهات.
+- إنشاء تقارير بمساعدة الذكاء الاصطناعي.
+
+### 19. Administration & Governance
+- المستخدمون.
+- الأدوار.
+- الصلاحيات.
+- الشركات.
+- إعدادات النظام.
+- سجلات التدقيق.
+- إعدادات المحركات.
+- إصدارات النماذج.
+- سياسات البيانات.
+
+يجب أن تكون الشاشات متصلة بوظائف حقيقية وبيانات فعلية، وليست صفحات شكلية.
+
+---
+
+# 11. المستخدمون والصلاحيات
+
+أنشئ نظام RBAC متكاملاً مع دعم صلاحيات دقيقة حسب الشركة والنطاق الجغرافي والوظيفي.
+
+الأدوار المقترحة:
+
+- Platform Super Admin.
+- Company Owner.
+- Executive Manager.
+- Commercial Director.
+- Sales Manager.
+- Trade Marketing Manager.
+- Finance Manager.
+- Procurement Manager.
+- Data Analyst.
+- Decision Reviewer.
+- Department Manager.
+- Read-only User.
+
+يجب دعم:
+
+- User Permissions.
+- Role Permissions.
+- Company Scope.
+- Branch Scope.
+- Region Scope.
+- Department Scope.
+- Data Access Policies.
+- Approval Permissions.
+
+يجب ألا يستطيع المستخدم الوصول إلى بيانات شركة أخرى.
+
+يجب تطبيق الصلاحيات في Backend وليس إخفاء الأزرار في Frontend فقط.
+
+---
+
+# 12. دورة القرار والاعتمادات
+
+أنشئ Decision Management System متكاملاً.
+
+كل توصية يجب أن تتضمن:
+
+- Recommendation ID.
+- Related Module.
+- Related Dataset.
+- Data Quality Status.
+- Forecast Reference.
+- Optimization Reference.
+- Objective.
+- Constraints.
+- Expected Outcome.
+- Risks.
+- Assumptions.
+- Evidence.
+- Confidence Information.
+- Limitations.
+- Created By.
+- Created At.
+
+حالات التوصية والقرار:
+
+- DRAFT.
+- PENDING_REVIEW.
+- UNDER_REVIEW.
+- APPROVED.
+- REJECTED.
+- MODIFIED.
+- EXPIRED.
+
+يجب أن يستطيع المراجع:
+
+- قبول التوصية.
+- رفضها.
+- تعديلها.
+- طلب معلومات إضافية.
+- إضافة ملاحظات.
+- إعادة التحليل.
+- اعتماد بديل آخر.
+
+يجب تسجيل كل تغيير في Audit Log.
+
+لا تنفذ التوصيات تلقائياً دون صلاحية وموافقة صريحة.
+
+---
+
+# 13. التقارير والمخرجات
+
+يجب أن ينتج النظام تقارير احترافية قابلة للقراءة من الإدارة العليا والمحللين.
+
+أنواع التقارير:
+
+1. Executive Commercial Report.
+2. Commercial Performance Report.
+3. Forecast Report.
+4. Optimization Report.
+5. Scenario Comparison Report.
+6. Budget Allocation Report.
+7. Trade Marketing Report.
+8. Pricing & Profitability Report.
+9. Product Portfolio Report.
+10. Customer Intelligence Report.
+11. Sales & Channel Report.
+12. Supplier Intelligence Report.
+13. Credit & Liquidity Report.
+14. Detect & Alerts Report.
+15. Decision Effectiveness Report.
+
+يجب أن يحتوي التقرير على:
+
+- الملخص التنفيذي.
+- المؤشرات.
+- الرسوم البيانية.
+- النتائج.
+- التوصيات.
+- الأدلة.
+- الافتراضات.
+- القيود.
+- جودة البيانات.
+- مصادر المعلومات.
+- تاريخ التقرير.
+- إصدار النموذج عند الاقتضاء.
+
+يجب أن تكون قوالب التقارير قابلة للتخصيص، مع دعم العربية والإنجليزية.
+
+لا تعرض رسومًا أو أرقامًا وهمية باعتبارها بيانات حقيقية.
+
+---
+
+# 14. البنية التقنية المقترحة
+
+اختر التقنيات الأنسب لقدرات منصة التطوير المتاحة، مع تقديم مبررات الاختيار.
+
+لا تفرض تقنية بعينها إذا كانت المنصة تفرض بيئة مختلفة، لكن حافظ على المتطلبات المعمارية.
+
+يجب أن تتكون البنية من طبقات منفصلة:
+
+1. Presentation Layer.
+2. API Layer.
+3. Authentication & Authorization.
+4. Business Logic Layer.
+5. Data Ingestion Layer.
+6. Data Validation Layer.
+7. Commercial Intelligence Layer.
+8. Prediction Engine.
+9. Mathematical Optimization Engine.
+10. AI Orchestration Layer.
+11. Decision Management Layer.
+12. Detect Engine.
+13. Reporting Engine.
+14. Audit & Governance Layer.
+15. Database Layer.
+16. Integration Layer.
+
+## متطلبات Backend
+
+- Modular Architecture.
+- API Versioning.
+- Input Validation.
+- Error Handling.
+- Background Jobs.
+- Queue Management عند الحاجة.
+- Logging.
+- Audit Logging.
+- Transaction Management.
+- Idempotency.
+- Database Migrations.
+- Automated Tests.
+
+## متطلبات Database
+
+صمم قاعدة بيانات علائقية مناسبة للبيانات التجارية، مع مراعاة:
+
+- Multi-tenancy.
+- Referential Integrity.
+- Indexing.
+- Versioning.
+- Auditability.
+- Historical Records.
+- Transaction Safety.
+- Data Isolation.
+- Scalability.
+
+استخدم جداول منظمة وكيانات واضحة، ولا تضع كل شيء في جداول عامة أو JSON غير منظم.
+
+افصل بيانات الشركة عن بيانات المنصة.
+
+وثّق ERD ومخطط العلاقات.
+
+## متطلبات Frontend
+
+- Component Architecture.
+- Reusable Components.
+- State Management.
+- Form Validation.
+- API Integration.
+- Error States.
+- Loading States.
+- Empty States.
+- Responsive Layout.
+- Accessibility.
+- Localization.
+- RTL/LTR.
+
+## متطلبات التشغيل
+
+- Environment Configuration.
+- Secure Secrets Management.
+- Database Backup.
+- Restore Procedures.
+- Health Checks.
+- Monitoring.
+- Error Tracking.
+- Deployment Documentation.
+- Versioning.
+- Recovery Procedures.
+
+---
+
+# 15. الأمن والخصوصية
+
+نفّذ ضوابط أمنية مناسبة لتطبيق مؤسسي متعدد الشركات.
+
+تشمل:
+
+- Secure Authentication.
+- Password Hashing.
+- Session Management.
+- Role-Based Access Control.
+- Tenant Isolation.
+- API Security.
+- Input Sanitization.
+- SQL Injection Protection.
+- XSS Protection.
+- CSRF Protection عند انطباقه.
+- Rate Limiting.
+- Secure File Uploads.
+- Secrets Management.
+- Audit Logging.
+- Backup Encryption.
+- Data Retention Policies.
+- Export Permissions.
+
+لا تضع مفاتيح API أو كلمات المرور داخل الكود أو الواجهة.
+
+لا تعتبر مجرد تسجيل الدخول كافياً لتأمين النظام.
+
+---
+
+# 16. الاختبارات والتحقق
+
+أنشئ استراتيجية اختبار متكاملة قبل اعتبار أي وظيفة مكتملة.
+
+## Unit Tests
+
+اختبار كل وظيفة حسابية وكل قاعدة عمل.
+
+## Integration Tests
+
+اختبار الاتصال بين:
+
+- البيانات.
+- التحقق.
+- المحركات.
+- قاعدة البيانات.
+- API.
+- الواجهة.
+
+## Mathematical Validation
+
+تحقق من:
+
+- صحة دالة الهدف.
+- صحة القيود.
+- صلاحية الحل.
+- صحة وحدات القياس.
+- صحة المقارنات.
+- صحة حساب المؤشرات.
+- حدود النموذج.
+- Solver Status.
+- Optimality Gap عند توفره.
+
+## Data Tests
+
+تحقق من:
+
+- البيانات الناقصة.
+- البيانات المكررة.
+- البيانات غير الصالحة.
+- اختلاف النطاقات.
+- اختلاف العملات.
+- اختلاف التوقيت.
+- العلاقات المرجعية.
+- صلاحية الإصدارات.
+
+## Security Tests
+
+تحقق من:
+
+- عزل الشركات.
+- الصلاحيات.
+- الوصول غير المصرح.
+- حماية API.
+- رفع الملفات.
+- تسريب البيانات.
+
+## End-to-End Tests
+
+اختبر دورة كاملة:
+
+1. إنشاء شركة.
+2. إعداد بياناتها.
+3. رفع البيانات.
+4. التحقق من البيانات.
+5. تشغيل التحليل.
+6. إنشاء توقع.
+7. تشغيل تحسين رياضي.
+8. إنشاء توصية.
+9. مراجعة التوصية.
+10. اعتماد القرار.
+11. تسجيل مرجع التنفيذ.
+12. إدخال النتائج الفعلية.
+13. قياس الأداء.
+14. اكتشاف الانحراف.
+15. إصدار تقرير.
+
+يجب أن تكون نتائج الاختبارات موثقة مع عدد الاختبارات الناجحة والفاشلة والمتجاوزة وأسباب الفشل.
+
+لا تستخدم عبارة ALL TESTS PASS إذا لم يتم تشغيل مجموعة الاختبارات الكاملة فعلياً.
+
+---
+
+# 17. البيانات التجريبية
+
+أنشئ مجموعة بيانات تجريبية واقعية ومترابطة لشركة توزيع افتراضية.
+
+يجب أن تحتوي على:
+
+- منتجات متعددة.
+- فئات منتجات.
+- عملاء.
+- موردين.
+- مناطق.
+- فروع.
+- قنوات بيع.
+- معاملات بيع تاريخية.
+- أسعار.
+- تكاليف عند توفرها.
+- ميزانيات.
+- أنشطة تجارية.
+- عروض.
+- أهداف معتمدة.
+- توقعات.
+- بيانات مالية مناسبة.
+- نتائج فعلية.
+
+يجب أن تكون البيانات متسقة حسابياً ومنطقياً بين الجداول.
+
+يجب وضع علامة واضحة على البيانات التجريبية.
+
+يجب ألا تختلط البيانات التجريبية ببيانات العميل الحقيقية.
+
+أنشئ سيناريوهات اختبار تشمل:
+
+- بيانات مكتملة.
+- بيانات ناقصة.
+- بيانات متضاربة.
+- منتجات بلا تكلفة.
+- ميزانية دون إنفاق فعلي.
+- إنفاق دون عائد قابل للإسناد.
+- توقعات متعددة الإصدارات.
+- قيود تحسين غير قابلة للتحقيق.
+- بيانات غير كافية لإنتاج توصية.
+
+يجب أن تثبت الاختبارات أن النظام يتعامل مع الحالات غير المثالية بأمان.
+
+---
+
+# 18. الأداء وقابلية التوسع
+
+صمم المنصة بحيث تتحمل التوسع في:
+
+- عدد الشركات.
+- عدد المستخدمين.
+- حجم البيانات.
+- عدد المنتجات.
+- عدد العملاء.
+- عدد الفروع.
+- عدد التحليلات.
+- عدد عمليات التحسين.
+- عدد التقارير.
+- عدد التكاملات.
+
+لا تجعل العمليات الحسابية الثقيلة تمنع استخدام بقية النظام.
+
+استخدم Background Processing للعمليات الطويلة.
+
+أضف مراقبة للأداء ووقت التنفيذ واستهلاك الموارد.
+
+لا تستخدم Cache لنتائج متغيرة دون سياسة واضحة لصلاحية البيانات وإبطالها.
+
+---
+
+# 19. مراحل التنفيذ الإلزامية
+
+لا تنفذ المشروع دفعة واحدة بصورة عشوائية.
+
+قسّم التنفيذ إلى مراحل، ولا تنتقل إلى المرحلة التالية إلا بعد إكمال مخرجات المرحلة الحالية والتحقق منها.
+
+## Phase 0 — Product & Platform Discovery
+
+المطلوب:
+
+- فهم قدرات منصة التطوير الحالية.
+- تحديد حدودها.
+- تحديد التقنيات المتاحة.
+- تحديد قاعدة البيانات.
+- تحديد آليات النشر.
+- تحديد إمكانات التكامل.
+- تحديد قدرات تشغيل Python أو Solvers أو الخدمات الحسابية عند الحاجة.
+- تحديد القيود التي قد تمنع تنفيذ وظائف معينة.
+
+المخرجات:
+
+- PLATFORM_CAPABILITY_REPORT.md
+- PRODUCT_REQUIREMENTS.md
+- TECHNICAL_RISK_REGISTER.md
+- IMPLEMENTATION_ROADMAP.md
+
+لا تبدأ بناء التطبيق قبل توضيح أي قيد جوهري.
+
+## Phase 1 — Product Architecture & Design
+
+المطلوب:
+
+- النظام المعماري الكامل.
+- خريطة الوحدات.
+- تدفق البيانات.
+- تدفق القرارات.
+- ERD.
+- API Architecture.
+- Role & Permission Matrix.
+- UI/UX Design System.
+- Mathematical Engine Architecture.
+- Integration Architecture.
+
+المخرجات:
+
+- PRODUCT_MASTER_SPEC.md
+- SYSTEM_ARCHITECTURE.md
+- DATABASE_SCHEMA.md
+- API_SPECIFICATION.md
+- UI_UX_SPECIFICATION.md
+- MATHEMATICAL_ENGINE_SPEC.md
+- SECURITY_SPECIFICATION.md
+
+## Phase 2 — Core Platform Foundation
+
+ابنِ:
+
+- Authentication.
+- Multi-tenancy.
+- Company Management.
+- User Management.
+- Roles & Permissions.
+- Database.
+- Audit Logs.
+- Data Import.
+- Data Mapping.
+- Validation.
+- Data Quality.
+- Core Entity Management.
+
+لا تنتقل قبل إثبات سلامة الأساس.
+
+## Phase 3 — Commercial Intelligence Foundation
+
+ابنِ:
+
+- Product Intelligence.
+- Customer Intelligence.
+- Sales Intelligence.
+- Channel Intelligence.
+- Regional Intelligence.
+- Commercial Metrics.
+- Analytical Data Models.
+- Historical Analysis.
+
+يجب توحيد تعريف المؤشرات الحسابية.
+
+## Phase 4 — Prediction Engine
+
+ابنِ محرك التوقعات مع:
+
+- Model Registry.
+- Forecasting Pipelines.
+- Model Evaluation.
+- Backtesting.
+- Forecast Versioning.
+- Confidence Intervals عند توفر أساس إحصائي.
+- Forecast Scope Management.
+- Data Sufficiency.
+
+اختبر جودة التوقعات مقابل Baseline مناسب.
+
+## Phase 5 — Mathematical Decision Engine
+
+ابنِ طبقة التحسين الرياضي بصورة مستقلة ومنظمة.
+
+ابدأ بالنماذج التي تخدم المنتج الأول فعلياً، ثم وسّع المكتبة تدريجياً.
+
+المطلوب:
+
+- Mathematical Model Registry.
+- Solver Abstraction.
+- Variable Definition.
+- Objective Function Builder.
+- Constraint Builder.
+- Feasibility Validation.
+- Solver Execution.
+- Solution Validation.
+- Sensitivity Analysis.
+- Scenario Comparison.
+- Solver Status Management.
+- Reproducibility.
+- Model Versioning.
+
+يجب أن تكون كل وظيفة تحسين مرتبطة بمشكلة تجارية محددة ومدخلات وقيود قابلة للاختبار.
+
+## Phase 6 — Commercial Optimization Modules
+
+نفّذ وحدات التحسين التالية تدريجياً:
+
+1. Budget Allocation Optimization.
+2. Trade Marketing Activity Optimization.
+3. Pricing Optimization.
+4. Bundles & Offers Optimization.
+5. Sales & Channel Allocation.
+6. Product Portfolio Optimization.
+7. Supplier & Procurement Optimization.
+8. Credit & Liquidity Optimization.
+
+لا تنفذ وحدة دون تحديد:
+
+- Problem Definition.
+- Required Inputs.
+- Decision Variables.
+- Objective Function.
+- Constraints.
+- Expected Outputs.
+- Data Sufficiency Rules.
+- Validation Tests.
+- Known Limitations.
+
+## Phase 7 — Decision Management
+
+ابنِ:
+
+- Recommendation Workflow.
+- Review Workflow.
+- Approval Workflow.
+- Modification Workflow.
+- Decision History.
+- Execution References.
+- Decision Audit Trail.
+
+## Phase 8 — Detect Engine
+
+ابنِ:
+
+- Detection Rules.
+- Threshold Management.
+- Alert Lifecycle.
+- Evidence Linking.
+- Duplicate Detection.
+- Alert History.
+- Forecast Drift.
+- Performance Variance.
+- Risk Detection.
+- Opportunity Detection.
+
+## Phase 9 — AI Workspace & Reporting
+
+ابنِ:
+
+- AI Assistant.
+- Natural Language Analytics.
+- Explainability.
+- Report Generation.
+- Executive Summaries.
+- Custom Report Templates.
+- PDF/Excel Exports عند دعم البيئة.
+
+## Phase 10 — Integration & Enterprise Readiness
+
+ابنِ:
+
+- External API Integrations.
+- Scheduled Imports.
+- Data Synchronization.
+- Monitoring.
+- Backup & Recovery.
+- Security Review.
+- Performance Testing.
+- Deployment Automation.
+- Documentation.
+
+## Phase 11 — Final Acceptance
+
+نفّذ اختبارات القبول الشاملة.
+
+يجب إثبات أن جميع الوحدات مترابطة وأن دورة القرار تعمل من إدخال البيانات حتى قياس النتائج.
+
+أنشئ:
+
+- FINAL_ACCEPTANCE_REPORT.md
+- FULL_TEST_REPORT.md
+- SECURITY_AUDIT_REPORT.md
+- PERFORMANCE_REPORT.md
+- DEPLOYMENT_GUIDE.md
+- USER_GUIDE.md
+- ADMIN_GUIDE.md
+- KNOWN_LIMITATIONS.md
+- RELEASE_READINESS_REPORT.md
+
+---
+
+# 20. إدارة نطاق المنتج والإصدارات
+
+لا تحاول تنفيذ كل شيء بأقصى عمق منذ اليوم الأول.
+
+أنشئ:
+
+- Core Platform.
+- General Extensible Framework.
+- Product MVP.
+- Advanced Modules.
+- Future Extensions.
+
+يجب أن يكون الإطار العام قابلاً للتوسع، لكن يتم بناء الوظائف الرياضية والتجارية المتقدمة حسب الأولوية والقيمة التجارية والبيانات المتاحة.
+
+حدد بوضوح لكل وظيفة:
+
+- IMPLEMENTED.
+- PARTIALLY_IMPLEMENTED.
+- PLANNED.
+- DEFERRED.
+- BLOCKED.
+
+لا تعرض الوظائف المخططة كما لو كانت منفذة.
+
+أنشئ Product Roadmap واضحاً يبين ما يدخل في الإصدار الأول وما يؤجل.
+
+يجب أن يكون MVP منتجاً قابلاً للاستخدام الفعلي في نطاق تجاري محدد، وليس مجرد مجموعة شاشات.
+
+---
+
+# 21. مبادئ الحسابات التجارية والمالية الإلزامية
+
+التزم بما يلي:
+
+1. لا تحسب Gross Profit دون COGS موثوق ومناسب.
+2. لا تحسب ROI دون إنفاق فعلي وعائد قابل للإسناد.
+3. Revenue-to-Investment Ratio ليس ROI.
+4. Allocation ليس Spending.
+5. Approved Budget ليس Actual Spend.
+6. لا تنسب إنفاقاً إلى نشاط معين دون دليل خاص بالنشاط.
+7. لا تحسب Incremental Contribution دون بيانات متجانسة تسمح بحساب التغير في الإيرادات والتكاليف ذات الصلة.
+8. لا تفترض Uplift دون دليل.
+9. لا تفترض Cannibalization دون دليل.
+10. لا تفترض Price Elasticity دون بيانات ونموذج صالح.
+11. لا تفترض علاقة سببية من مجرد وجود ارتباط.
+12. لا تخلط Forecast مع Target.
+13. لا تخلط Recommendation مع Approved Decision.
+14. لا تخلط Approved Decision مع Execution.
+15. لا تعتبر تنفيذ القرار دليلاً على نجاحه.
+16. يجب إظهار العملة ووحدة القياس والفترة الزمنية في كل مؤشر.
+
+يجب تطبيق هذه القواعد داخل محركات الحساب والتحقق، وليس فقط في نصوص التقارير.
+
+---
+
+# 22. تجربة الاستخدام باللغة العربية والإنجليزية
+
+اللغة الأساسية في تجربة المستخدم: العربية.
+
+يجب توفير الإنجليزية أيضاً.
+
+يجب أن يدعم النظام:
+
+- RTL.
+- LTR.
+- ترجمة أسماء الوحدات.
+- ترجمة الحالات.
+- ترجمة الرسائل.
+- ترجمة التقارير.
+- تنسيق الأرقام.
+- تنسيق التواريخ.
+- تعدد العملات.
+- المناطق الزمنية.
+
+يجب فصل النصوص عن منطق التطبيق باستخدام نظام Localization.
+
+---
+
+# 23. معايير الجودة النهائية
+
+لن يُعتبر TETRA OS مكتملاً لمجرد أن التطبيق يفتح أو أن الشاشات تظهر.
+
+يجب تحقيق المعايير التالية:
+
+### Product Quality
+- المفهوم التجاري صحيح.
+- الوحدات مترابطة.
+- الوظائف واضحة.
+- دورة القرار كاملة.
+
+### Mathematical Quality
+- النماذج صحيحة.
+- القيود مطبقة.
+- النتائج قابلة للتحقق.
+- حالات Solver صحيحة.
+- لا توجد ادعاءات أمثلية مضللة.
+
+### Data Quality
+- البيانات منظمة.
+- التحقق يعمل.
+- النطاقات معزولة.
+- الإصدارات محفوظة.
+- مصدر النتائج معروف.
+
+### Engineering Quality
+- البنية قابلة للصيانة.
+- الأخطاء معالجة.
+- قاعدة البيانات سليمة.
+- API موثق.
+- الاختبارات آلية.
+
+### Security Quality
+- الشركات معزولة.
+- الصلاحيات فعالة.
+- البيانات محمية.
+- العمليات الحساسة مسجلة.
+
+### UX Quality
+- الواجهات احترافية.
+- التنقل واضح.
+- الرسوم مفهومة.
+- لا توجد وظائف شكلية.
+- العربية والإنجليزية تعملان بصورة صحيحة.
+
+### Operational Quality
+- النسخ الاحتياطي يعمل.
+- الاستعادة موثقة ومختبرة.
+- النشر موثق.
+- المراقبة متاحة.
+- الأعطال قابلة للتشخيص.
+
+---
+
+# 24. آلية العمل والتقارير المطلوبة منك
+
+في بداية التنفيذ:
+
+1. اقرأ هذا البرومبت كاملاً.
+2. حلل قدرات منصة التطوير.
+3. حدد التقنية الأنسب.
+4. قدم تصوراً معمارياً كاملاً.
+5. حدد المخاطر والقيود.
+6. حدد ترتيب التنفيذ.
+7. قدم قائمة بالمخرجات.
+8. لا تبدأ التنفيذ العشوائي.
+
+بعد كل مرحلة، قدم تقريراً يحتوي على:
+
+- ما الذي تم بناؤه؟
+- الملفات التي تم إنشاؤها أو تعديلها.
+- الوظائف التي أصبحت تعمل فعلياً.
+- ما الذي لم يكتمل؟
+- نتائج الاختبارات.
+- الاختبارات الفاشلة وأسبابها.
+- المشكلات المفتوحة.
+- المخاطر.
+- قرارات المرحلة التالية.
+- كيفية تشغيل واختبار ما تم بناؤه.
+
+لا تنتقل إلى المرحلة التالية إذا كانت هناك مشكلة جوهرية تمنع الاعتماد.
+
+عند اكتشاف مشكلة:
+
+- حدد السبب الجذري.
+- حدد نطاق التأثير.
+- اقترح أقل إصلاح آمن.
+- نفّذ الإصلاح ضمن النطاق المصرح.
+- شغّل الاختبارات المرتبطة.
+- شغّل اختبارات الانحدار اللازمة.
+- وثّق النتيجة.
+
+لا تعالج الأخطاء بإخفائها أو تعطيل الاختبارات أو تخفيض شروط القبول.
+
+---
+
+# 25. أول مهمة مطلوبة الآن
+
+ابدأ الآن بتنفيذ Phase 0 فقط.
+
+لا تبدأ بناء الواجهات أو كتابة التطبيق قبل إكمال تحليل المنصة والقيود والقرارات المعمارية الأولية.
+
+أريد منك أولاً:
+
+1. تقييم قدرات بيئة التطوير التي تعمل عليها.
+2. اقتراح Stack تقني مناسب.
+3. تحديد كيفية تنفيذ محركات التنبؤ والتحسين الرياضي.
+4. تحديد Solvers المتاحة أو الممكن دمجها، وتراخيصها وقيودها.
+5. تحديد قاعدة البيانات.
+6. تحديد بنية Multi-tenancy.
+7. تحديد طريقة تشغيل العمليات الحسابية الثقيلة.
+8. تحديد كيفية دعم العربية والإنجليزية.
+9. تحديد استراتيجية الأمان.
+10. تحديد المخاطر التقنية.
+11. اقتراح خطة MVP قابلة للبيع والاستخدام.
+12. تحديد ما سيتم بناؤه الآن وما سيؤجل.
+
+أنت مطالب بتقديم تقرير Phase 0 أولاً، ثم انتظار اعتمادي قبل بدء Phase 1.
+
+**الهدف النهائي: بناء TETRA OS كمنصة ذكاء تجاري مؤسسية متكاملة، يكون فيها التنبؤ والتحسين الرياضي واكتشاف الانحرافات محركات حقيقية، وتكون بحوث العمليات والخوارزميات الرياضية أساساً لاتخاذ القرار، والذكاء الاصطناعي طبقة تفسير وتفاعل وتنسيق فوق هذه المحركات.**

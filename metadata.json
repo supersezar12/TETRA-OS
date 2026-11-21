@@ -1,0 +1,6 @@
+{
+  "name": "TETRA OS",
+  "description": "Commercial Decisions Intelligence Platform — Predict. Optimize. Detect.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
